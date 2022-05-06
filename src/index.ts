@@ -1,9 +1,17 @@
-import "./styles.css";
+let career_position: number = Number (prompt ("Ingrese la posición en la carrera"));
+console.clear();
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>`;
+switch (career_position) {
+  case 1:
+    console.log("Medalla de Oro");
+    break;
+  case 2: 
+    console.log("Medalla de Plata");
+    break;
+  case 3: 
+    console.log("Medalla de Bronce");
+    break;
+  default:  
+    console.log("Certificado de participación");
+    break;}
+    
